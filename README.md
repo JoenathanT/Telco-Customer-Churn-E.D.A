@@ -1,73 +1,107 @@
-Tablue: https://public.tableau.com/app/profile/jonathan.tuahta/viz/Milestone01/Dashboard1?publish=yes
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/umlNnTo3)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-718a45dd9cf7e7f842a935f5ebbe5719a5e09af4491e668f4dbf3b35d5cca122.svg)](https://classroom.github.com/online_ide?assignment_repo_id=12320125&assignment_repo_type=AssignmentRepo)
-# Milestones 1
+# Notebook Instructions
+  1. Introduction
+      > Hello, thankyou for your attention in this projects, My name is Jonathan Tuahta. the purpose of this project is to analyze the incidence of customer churn in telco companies and make strategy recommendations based on the company's customer data. in this project, i will process the existing data to identify the problems that occur in the company. then, with qualitative and quantitative analysis methods, i will look for problem solving to deal with the problems experienced by the company. with certain considerations such as the state of customers and companies, then i will provide suggestions that will become the company's strategy in dealing with problems about customer churn.
 
-_Milestones ini dibuat guna mengevaluasi pembelajaran pada Hacktiv8 Data Science Fulltime Program khususnya pada Phase 0._
+      > This project is a form of my practice in using technology software and websites such as python to process data, tableau for the process of visualizing data so that it can be presented, and kaggel as a website to get datasets.
 
----
+  2. Problem Identification
+      > Problem Identification using S.M.A.R.T.
 
-# Assignment Problems
+        - Specify: Increase the customer loyalty of the company and increase the company's customers.
 
-Kamu adalah seorang Data Analyst yang akan mengerjakan projek besar untuk menyelesaikan suatu permasalahan client dan client kamu butuh sekali hasil analisa datamu menggunakan statistik dan dashboard visualisasi data untuk membantu mereka menyelesaikan masalah.
+        - Measureable : maintain most of the long subscription by providing services that meet the needs of customers and provide benefits that can attract new customers.
 
----
+        - Achievable: increase old customer satisfaction by providing services that each customer has registered, paying attention to customer information so that the company can find out the needs of customers.
 
-# Assignment Instructions
-## General Instructions
-1. Pilihlah satu topik **bebas** dan buat **problem statement** terlebih dahulu menggunakan metode SMART.
+        - Relevant: increasing customer satisfaction with each of our services can be an important factor in increasing company revenue, on the other hand the company name will be well known by the public so that it can attract potential customers.
 
-2. Dataset dibebaskan dari sumber manapun (BigQuery, Kaggle, BPS, dll.) dan berformat apapun (csv, excel, json, sql query, dll.) **NOTE:** Wajib mencantumkan sumber referensi data pada bagian `Data Loading`.
+        - Time Bound: the estimated goal can be set to be completed within two quarters of the work process with a record of the customer retention rate can increase by 50% and reduce the churn rate by 30%.
 
-3. Sebelum menentukan tabel, kolom, atau hal lain dalam dataset mana yang akan dijadikan analisis dan visualisasi data, lakukan identifikasi dan penjabaran masalah supaya dapat memudahkan kamu dalam melakukan analisis. Kamu bisa menggunakan metode apapun seperti analisis SWOT, Fish bone diagram, 5W+1H, dsb.
-  - **Contoh:**
-  - Problem Statement: `Mengetahui Preferensi dan Perilaku Konsumsi Makanan di Area Urban di Indonesia dalam kurun waktu tahun 2021`
+        *Problem Statement*
 
-  - Penjabaran masalah dengan metode 5W+1H:
+        `increase company revenue by increasing customer loyalty/customer retention by maximizing customer service, improving services that are considered unsatisfactory. this is done to retain most customers while attracting new customers. the company will target an increase in customer retention of 50% and reduce the churn rate by 30%.`
 
-    - Kota mana dengan rata-rata % pengeluaran makan paling besar?
-    - Bagaimana perilaku pemilihan makanan berdasarkan harga terhadap social class masyarakat?
-    - Apakah tingkat pendidikan sarjana memiliki preferensi memilih makanan-makanan yang sehat?
-    - Apakah warga DKI Jakarta masih mengonsumsi makanan tradisional?
-    - Usia berapa saja yang masih mengonsumsi makanan tradisional?
-    - dsb.
-  - Pertanyaan-pertanyaan/penjabaran masalah di atas dapat dijawab dengan data visualisasi dan analisis statistik.
-
-4. Setelah melakukan identifikasi dan penjabaran masalah, tentukan metrik/data apa saja yang diperlukan lalu tarik data yang diperlukan dari dataset yang sudah ditentukan menggunakan SQL. `Cantumkan semua query yang dibuat untuk menarik semua data yang diperlukan dalam milestone ini`.
-5. **Perlu diperhatikan** bahwa penjabaran masalah untuk dijawab menggunakan data visualisasi dan analisis statistik **HARUS** mengikuti kriteria berikut:
-  - Minimal terdapat `6 penjabaran` masalah dimana 4 penjabaran untuk `visualisasi data`, 1 penjabaran untuk `statistik deskriptif`, dan 1 penjabaran untuk `statistik inferensial`.
-6. Untuk `Data Visualisasi` dibebaskan menggunakan tipe visualisasi (batang, garis, dsb) dan library (matplotlib, pyplot, seaborn, dsb) apapun, disesuaikan dengan penjabaran masalahnya. `Minimal 4 visualisasi sesuai dengan jumlah minimum penjabaran untuk bagian visualisasi data`. **WAJIB** memberikan insight di tiap visualisasi data.
-7. Untuk `Statistik Deskriptif`, pilih minimal salah satu perhitungan/analisis statistik deskriptif seperti *central tendency*, *measure of variance*, *outlier analysis*, *distribution*, dsb. `Sesuaikan dengan penjabaran masalah yang ditentukan`.
-8. Untuk `Statistik Inferensial`, pilih minimal salah satu perhitungan/analisis statistik inferensial seperti *confidence interval*, *statistical significance*, *statistical testing*, *hypothesis testing: one sample, two sample independent, paired test, ANOVA, chi-square*, dsb. `Sesuaikan dengan penjabaran masalah yang ditentukan`.
-9. Output dari milestone ini adalah dashboard data visualisasi menggunakan `Tableau Public` dan analisis serta pengolahan data di `jupyter notebook`.
-
-## Notebook Instructions
-1. Lakukan data cleaning dan preprocessing pada notebook
-2. Notebook harus mengikuti format berikut:
-  1. Perkenalan
-      > Bab pengenalan harus diisi dengan identitas.
-
-  2. Identifikasi Masalah
-      > Bab ini harus menyantumkan **topik permasalahan**, **problem statement**, **latar belakang**, serta **penjabaran masalah** yang ingin dianalisis menggunakan metode statistik dan data Visualisasi.
 
   3. Data Loading 
-      > Bagian ini berisi proses *data loading* dan eksplorasi data sederhana. Cantumkan query SQL masing-masing data yang di-load jika menggunakan dari BigQuery atau server SQL lainnya. Tampilkan pulai datanya.
+      > Dataset used in this project obtain from kaggle website. you can acces the [link_here](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)
+
+      > the dataset have 7043 lines with 20 column in total (16 columns object, 4 columns numerical ) with  details of dataset:
+
+      | Column | Explanation |
+       | ----- | --- |
+       | Customer ID | contains each customer's unique value |
+       | gender | whether the customer is male or female |
+       | Senior Citizens | whether the customer belongs to senior society (old) (1 , 0) |
+       | Partners | does the customer have a partner (Yes, No) |
+       | Dependents | whether the customer has dependents or not (Yes, No) |
+       | ownership | Number of months the customer has been with the company |
+       | Telephone Services | Whether the customer has telephone service or not (Yes, No) |
+       | Many Lines | Whether the customer has multiple lines or not (Yes, No, No phone service) |
+       | Internet Services | Customer internet service provider (DSL, Fiber optic, No) |
+       | Online Security| Whether the customer has online security or not (Yes, No, No internet service) |
+       | Online Backup | Whether the customer has online backup or not (Yes, No, No internet service) |
+       | Device Protection | Whether the customer has device protection or not (Yes, No, No internet service) |
+       | Technical Support | Whether the customer has technical support or not (Yes, No, No internet service) |
+       | StreamTV | Whether the customer has streaming TV or not (Yes, No, No internet service) |
+       | StreamingFilms | bWhether the customer has streaming movies or not (Yes, No, No internet service) |
+       | Contract | Customer contract term (Month to month, One year, Two years) |
+       | Paperless Billing | Whether the customer has paperless billing or not (Yes, No) |
+       | Payment Method | Customer payment methods (Electronic check, Postal check, Bank transfer (automatic), Credit card (automatic)) |
+       | Monthly Fees | The amount charged to customers each month |
+       | Total Cost | Total amount charged to customers |
+       | Play | whether customers resubscribe (Yes, No) |
+
 
   4. Data Cleaning
-      > Bagian ini berisi proses penyiapan data berupa data cleaning sebelum dilakukan *explorasi data* lebih lanjut. Proses cleaning dapat berupa memberi nama baru untuk setiap kolom, mengisi missing values, menghapus kolom yang tidak dipakai, dan lain sebagainya.
+      > The data displayed is data from the company and needs to be cleaned, for example there are columns that do not need to be used, we need to use ```dropna``` to delete data that is not needed, we also need to clean duplicate values in each table. ```drop_duplicates```, then we will also clean values that are not needed or if there are values that do not match the data column type use ```replace``` and after we check the values, we will check the data type in the column and If there is a need to change the data type we will use ```astype```.
 
-  5. Analisis dan perhitungan
-      > Bagian ini berisi proses analisis, penjelasan, perhitungan statistik deskriptif, inferensial, serta pembuatan visualisasi data. Untuk visualisasi data wajib memberikan insight di tiap visualisasinya.
+      > `totalCharges` data type will transformed into float (before object) and i will drop customerID column because it is not useful for this project.
+
+      > changing the column that only contain 2 values (yes and no) into boolean data(1 and 0).
+
+  5. Analysis dan calculation.
+      > 1. what factors influence customer interest in company?
+       using P values, i will define each service in this dataset that will be customer interest to subscribe the company.
+       for the calculation we will use:
+       H0: the target column and churn column are not related
+       H1: the target column and chutn column are related
+       **note: for this, i ussualy using confidence percentage: 95%**
+
+       >the result is:
+       ![no1](..\Telco-Customer-Churn-E.D.A\img\1.png)
+       ![no2](..\Telco-Customer-Churn-E.D.A\img\2.png)
+
+       >It can be seen that the columns related to churn are ```SeniorCitizen, Partner, Dependents, MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies, Contract, PaperlessBilling, PaymentMethod ```
+
+      > 2. Who is suitable for the services we provide? 
+      for this question, i must seek for each customer preference in dataset. there is 3 column that describe for customer preference there are `customer_citizen`, `gender`, and `partner`. here is the plot details:
+      ![no3](..\Telco-Customer-Churn-E.D.A\img\3.png)
+      ![no4](..\Telco-Customer-Churn-E.D.A\img\4.png)
+      ![no5](..\Telco-Customer-Churn-E.D.A\img\5.png)
+
+      >From this analysis we can find out that our customers are mostly young people who still do not have dependents and have a partner.
+
+      > 3. What is the average monthly expenditure & total expenditure for customers who are still subscribed?
+      for this question, we must calclulate the customer that is still using the service. by the data that we gain, there are 921 customer who still using the service. we can calculate average cost in month and total average by separate customer that still use the service and customer who decice to leave the service. by using python to calculate we can gain some information that will be answer the question:
+      ![no7](..\Telco-Customer-Churn-E.D.A\img\7.png)
+
+      > So it can be seen that the average monthly expenditure for customers is $58 per month and $2410 per year.
+
+      > 4. What is the suitable price preference for the service based on customer expenditure?
+      
+
+
+
+
 
   6. Pengambilan Kesimpulan
       > Pada bab terakhir ini, **harus berisi** kesimpulan yang mencerminkan solusi/rekomendasi/jawaban atas permasalahan yang diangkat serta menarik benang merah dari seluruh analisis dan perhitungan secara singkat, jelas, dan padat.
 
 3. Simpan notebook dengan judul h8dsft_Milestone1_<nama-student>.ipynb, misal h8dsft_Milestone1_raka_ardhi.ipynb
 
-## Dashboard Instructions
+## Dashboard
 
-1. Dashboard dibuat menggunakan `Tableau`.
-2. Dashboard yang dibuat terdiri dari 2 bagian : `Visualisasi` dan `Statistical Analysis` yang dapat dibuat dalam 1 halaman atau multi halaman.
+1. Dashboard build by tableu for the infomation you can clik [Tableau_Dashboard]()
 3. Untuk bagian Visualisasi :
   - Minimal ada 4 figure/visualisasi data yang ditampilkan dalam halaman `Visualisasi` yang sesuai dengan yang dibuat pada Notebook.
   - Minimal ada 1 interactivity pada dashboard
@@ -80,28 +114,3 @@ Kamu adalah seorang Data Analyst yang akan mengerjakan projek besar untuk menyel
 
 ---
 
-# Assignment Submission
-
-1. Tambahkan URL dashboard di bagian paling atas `.ipynb` dan di README.
-2. Tidak adanya URL dashboard di file .ipynb akan menyebabkan tidak dinilainya deployment Streamlit.
-3. Push Assigment yang telah dibuat ke akun Github masing-masing student dan Github Classroom.
-
----
-
-## Assignment Rubrics
-
-<img src="https://github.com/fahmimnalfrzki/Dataset/raw/main/Screenshot%202022-12-16%20at%2016.28.37.png"></img>
-
----
-
-## Score Reduction
-
-Jika Student terlambat mengumpulkan dengan waktu yang ditentukan, maka Graded Challenge akan diberi poin nol.
-
----
-
-```
-Total Points : 60
-
-Catatan : Penilaian Milestone  juga dapat dipengaruhi oleh aktivitas student selama Phase 0 berlangsung, baik sesi kelas maupun sesi mentoring dengan buddy-nya masing-masing sehingga terdapat kemungkinan adanya penambahan atau pengurangan nilai diluar rubric yang telah disebutkan diatas.
-```
