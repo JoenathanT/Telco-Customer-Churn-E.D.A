@@ -68,7 +68,7 @@
        **note: for this, i ussualy using confidence percentage: 95%**
 
        >the result is:
-       ![no1](..\Telco-Customer-Churn-E.D.A\img\1.png)
+       ![no1](img\1.png)
        ![no2](..\Telco-Customer-Churn-E.D.A\img\2.png)
 
        >It can be seen that the columns related to churn are ```SeniorCitizen, Partner, Dependents, MultipleLines, InternetService, OnlineSecurity, OnlineBackup, DeviceProtection, TechSupport, StreamingTV, StreamingMovies, Contract, PaperlessBilling, PaymentMethod ```
